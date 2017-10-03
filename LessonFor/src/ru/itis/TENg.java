@@ -24,5 +24,6 @@ public class TENg {
             S = S + z;
         }
         System.out.println(S);
+        //то же самое
     }
 }

@@ -32,5 +32,6 @@ public class TENb {
             S = S + z;
         }
         System.out.println(S);
+        //то же самое
     }
 }

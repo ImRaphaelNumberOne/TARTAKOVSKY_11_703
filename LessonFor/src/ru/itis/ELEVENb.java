@@ -22,5 +22,6 @@ public class ELEVENb {
             S = S + l;
         }
         System.out.println(S);
+        //то же самое
     }
 }

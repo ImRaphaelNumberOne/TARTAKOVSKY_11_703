@@ -23,4 +23,5 @@ public class ELEVENg {
         }
         System.out.println(S);
     }
+    //то же самое
 }

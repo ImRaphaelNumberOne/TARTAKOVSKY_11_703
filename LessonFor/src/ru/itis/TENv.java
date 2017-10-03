@@ -16,7 +16,7 @@ public class TENv {
             b = 0;
             while (b <= (2*k)) {
                 v = v * x;
-                b = b + 1;
+                b = b + 1; // 2?
                 System.out.println(v);
             }
             b = 0;
@@ -30,5 +30,6 @@ public class TENv {
             S = S + z;
         }
         System.out.println(S);
+        //то же самое
     }
 }

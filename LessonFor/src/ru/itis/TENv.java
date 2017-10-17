@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TENv {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double S = 0, n, x, a, b, k = 1, z, i;
+        double S = 0, v = 1, n, x, a, b, k = 1, z, i;
         n = in.nextInt();
         x = in.nextDouble();
         while (k <= n) {
@@ -15,19 +15,17 @@ public class TENv {
                 a = a * x;
                 i = i + 1;
             }
-<<<<<<< HEAD
             i = 1;
             b = 1;
             while (i <= 2 * k) {
                 b = b * i;
                 i = i + 2;
-=======
+            }
             b = 0;
             while (b <= (2*k)) {
                 v = v * x;
-                b = b + 1; // 2?
+                b = b + 2;
                 System.out.println(v);
->>>>>>> e680778a51bcd80b4ce1eb7a39cabb85446fe0a3
             }
             i = 1;
             z = 1;
@@ -39,6 +37,6 @@ public class TENv {
             k = k + 1;
         }
         System.out.println(S);
-        //то же самое
+
     }
 }

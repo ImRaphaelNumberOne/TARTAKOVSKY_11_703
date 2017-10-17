@@ -1,17 +1,16 @@
+package ru.itis;
+
 import java.util.Scanner;
 
-public class TWELVEa {
+public class TWENTYFOURa {
     public static void main(String[] args) {
+        double S = 1, n = 1, eps = 0.0001, x;
         Scanner in = new Scanner(System.in);
-        double n = 1, S = 0, eps = 0.0001, g, h, x, i = 1;
         x = in.nextDouble();
-        g = x;
-        while (g > eps) {
-            S = S + g;
+        while (S > eps) {
+            S = S + (-1) * (Math.cos(2 * n - 1) * x) / n;
             n = n + 1;
-            g = g * (x / n);
         }
         System.out.println(S);
-        System.out.println(g);
     }
 }

@@ -25,5 +25,6 @@ public class TENg {
             k = k + 1;
         }
         System.out.println(S);
+        //то же самое
     }
 }

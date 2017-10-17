@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class TWELVEb {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double n = 0, S = 0, eps = 0.0001, g = 0, z = -1, h, x, i;
+        double n = 0, S = 0, eps = 0.0001, g = 1, z = -1, h, x, i;
         x = in.nextDouble();
         double e;
-        while (Math.abs(g) < eps) {
+        System.out.println(Math.sin(x));
+
+        while (Math.abs(g) > eps) {
             h = 1;
             e = 1;
             i = 1;
@@ -20,7 +22,9 @@ public class TWELVEb {
             g = g * z;
             S = S + g;
             n = n + 1;
+
             System.out.println(S);
+            System.out.println("абс g " + Math.abs(g));
             System.out.println(n);
         }
     }

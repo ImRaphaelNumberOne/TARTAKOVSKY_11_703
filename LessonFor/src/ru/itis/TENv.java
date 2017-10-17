@@ -15,11 +15,19 @@ public class TENv {
                 a = a * x;
                 i = i + 1;
             }
+<<<<<<< HEAD
             i = 1;
             b = 1;
             while (i <= 2 * k) {
                 b = b * i;
                 i = i + 2;
+=======
+            b = 0;
+            while (b <= (2*k)) {
+                v = v * x;
+                b = b + 1; // 2?
+                System.out.println(v);
+>>>>>>> e680778a51bcd80b4ce1eb7a39cabb85446fe0a3
             }
             i = 1;
             z = 1;
@@ -31,5 +39,6 @@ public class TENv {
             k = k + 1;
         }
         System.out.println(S);
+        //то же самое
     }
 }

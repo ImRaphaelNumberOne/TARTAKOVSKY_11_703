@@ -9,7 +9,7 @@ public class TWELVEa {
         x = in.nextInt();
         double S = 1, eps = 0.0001;
         while (S > eps) {
-            S = S * (x / n);
+            S = S * (x / n);   //а где сумма?
             n = n + 1;
         }
         System.out.println(S);

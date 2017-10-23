@@ -1,4 +1,4 @@
-
+//+-
 public class SEVEN {
     public static void main(String[] args) {
         double n = 0, a = 2, b = 1, x, R = 1, eps = 0.0001, pi = 3.1415926, q = pi/2; //Почему R = 1? Это не член ряда, 

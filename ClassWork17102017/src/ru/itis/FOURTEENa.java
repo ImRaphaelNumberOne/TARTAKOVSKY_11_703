@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class FOURTEENa {
         x = in.nextDouble();
         t = 1 / k;
         while (t >= eps) {
-            t = t * 1 / k;
+            t = t * 1 / k;  //неверная логика
             S = S + (-1) * t * Math.sin(t * x) * Math.sin(t * x);
             k = k + 1;
         }

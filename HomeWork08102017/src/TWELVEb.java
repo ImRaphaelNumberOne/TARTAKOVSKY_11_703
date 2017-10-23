@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;  //-
 
 public class TWELVEb {
     public static void main(String[] args) {
@@ -10,13 +10,13 @@ public class TWELVEb {
             h = 1;
             e = 1;
             i = 1;
-            while (i <= (2*n + 1)) {
+            while (i <= (2*n + 1)) {//опять любимый внутренний цикл
                 e = e * x;
                 h = h * i;
                 i = i + 1;
             }
             S = S + (-1) * e / h;
-            n = n + 1;
+            n = n + 1;    //Куда делся g?
             System.out.println(S);
         }
     }

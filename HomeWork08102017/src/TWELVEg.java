@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//-
 
 public class TWELVEg {
     public static void main(String[] args) {
@@ -20,4 +20,4 @@ public class TWELVEg {
             System.out.println(S);
         }
     }
-}
+}// такие же замечания

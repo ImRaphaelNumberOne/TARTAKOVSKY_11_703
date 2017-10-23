@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class THIRTYa {
                 g = g * x1;
                 n = n + 1;
             }
-            f = g - x1 - 0.002;
+            f = g - x1 - 0.002;  //о чем речь?
         }
         System.out.println(f);
     }

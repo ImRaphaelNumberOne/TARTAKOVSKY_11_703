@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//-
 
 public class TWELVEv {
     public static void main(String[] args) {
@@ -17,4 +17,4 @@ public class TWELVEv {
                 System.out.println(n);
             }
     }
-}
+} // такие же замечания

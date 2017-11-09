@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class TWENTYFOURb {
         x = in.nextDouble();
         while (S > eps) {
             m = m * n;
-            S = S + (Math.sin(n * x) / m);
+            S = S + (Math.sin(n * x) / m);  // неправильно понято условие задачи 
             n = n + 1;
         }
         System.out.println(S);

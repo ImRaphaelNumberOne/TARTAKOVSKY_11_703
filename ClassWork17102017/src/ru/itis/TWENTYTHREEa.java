@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class TWENTYTHREEa {
         while (n < k) {
             l = l + Math.log(v2 * x);
             n = n + 1;
-            v2 = v1 + v0;
+            v2 = v1 + v0;// не изменяется
         }
         System.out.println(l);
     }

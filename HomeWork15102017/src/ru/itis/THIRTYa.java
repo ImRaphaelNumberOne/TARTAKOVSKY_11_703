@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 public class THIRTYa {
     public static void main(String[] args) {
@@ -9,9 +9,13 @@ public class THIRTYa {
                 g = g * x;
                 n = n + 1;
             }
+<<<<<<< HEAD
             n = 0;
             f = g - x - 0.002;
             x = f;
+=======
+            f = g - x1 - 0.002;  //о чем речь?
+>>>>>>> 1fcbdef3f9397c99b5edfe6f5bc8f0ae4777346b
         }
         System.out.println(f);
     }

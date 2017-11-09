@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -34,3 +34,4 @@ public class TENb {
         System.out.println(S);
     }
 }
+//почему вы присылаете мне снова такие же решения?

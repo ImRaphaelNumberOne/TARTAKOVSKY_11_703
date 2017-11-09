@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class TWENTYFOURa {
         Scanner in = new Scanner(System.in);
         x = in.nextDouble();
         while (S > eps) {
-            S = S + (-1) * (Math.cos(2 * n - 1) * x) / n;
+            S = S + (-1) * (Math.cos(2 * n - 1) * x) / n; //неверно понято условие задачи
             n = n + 1;
         }
         System.out.println(S);

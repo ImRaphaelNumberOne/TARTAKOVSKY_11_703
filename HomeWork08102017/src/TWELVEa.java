@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TWELVEa {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double n = 1, S = 0, eps = 0.0001, g, h, x, i = 1;
+        double n = 1, S = 0, eps = 0.0001, g, x;
         x = in.nextDouble();
         g = x;
         while (g > eps) {

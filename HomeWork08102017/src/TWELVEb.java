@@ -6,7 +6,7 @@ public class TWELVEb {
         double n = 0, S = 0, eps = 0.0001, g = 1, h, x, i;
         x = in.nextDouble();
         double e;
-        while (Math.abs(g) > eps) {
+        while (g > eps) {
             h = 1;
             e = 1;
             i = 1;
@@ -14,8 +14,10 @@ public class TWELVEb {
                 e = e * x;
                 h = h * i;
                 i = i + 1;
+
             }
-            S = S + (-1) * e / h;
+            g = e / h;
+            S = S + (-1) * g;
             n = n + 1;
             System.out.println(S);
         }

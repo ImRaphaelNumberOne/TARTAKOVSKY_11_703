@@ -2,11 +2,11 @@ package ru.itis;
 
 import java.util.Scanner;
 
-public class TWELVE {
+public class TWELVE { // Из задачника 1
     public static void main(String[] args) {
         // 12.а
         Scanner in = new Scanner(System.in);
-        double n = 1, S = 0, eps = 0.0001, g, x, i = 1, h;
+        double n = 1, S = 0, eps = 0.0001, g, x, i, h = 1, e = 1;
         x = in.nextDouble();
         g = x;
         while (g > eps) {
@@ -17,32 +17,28 @@ public class TWELVE {
         System.out.println(S);
         System.out.println(g);
         // 12.б
-        i = 1;
-        double e = 1;
-        n = 0;
+        S = 0;
+        i = -1;
+        n = 1;
         g = 1;
         while (g > eps) {
-            h = 1;
-            while (i <= (2*n + 1)) {
-                e = e * x;
-                h = h * i;
-                i = i + 1;
-            }
-            g = e / h;
-            S = S + (-1) * g;
+            i = i * (-1);
+            g = g * x;
+            h = h * (2*n + 1);
+            S = S * i * (g / h);
             n = n + 1;
+            System.out.println(S);
         }
         System.out.println(S);
         // 12.в
-        i = 1;
-        g = 1;
+        n = 1.0;
+        S = 0;
+        g = 1.0;
+        e = -1.0;
         while (g > eps) {
-            while (i <= n) {
-                e = e * x;
-                i = i + 1;
-            }
-            i = 1;
-            S = S + ((-1) * e) / n;
+            e = e * (-1.0);
+            g = g * x;
+            S = S + (g * e) / n;
             n = n + 1;
         }
         System.out.println(S);

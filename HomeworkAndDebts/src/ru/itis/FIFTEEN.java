@@ -12,7 +12,7 @@ public class FIFTEEN { // со скриншота
             x = Math.floor(n);
             y = Math.round((n - x) * 10);
             if ((y % 2) != 0) {
-                System.out.println(y);
+                System.out.println(y);    //почему цифры double?
             }
             n = x;
         }

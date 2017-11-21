@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class FOURTEENb {
         a = in.nextDouble();
         t = 1;
         while (t >= eps) {
-            t = t * 1 / a;
+            t = t * 1 / a;  //неверная логика
             S = S + t * Math.log(t * x);
         }
         System.out.println(S);

@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Random;
 
@@ -24,7 +24,7 @@ public class Ex5 {
             }
         }
         showMatrix(matrix);
-        int sum = 0;
+        int sum = 0;                               //you must walk on the matrix!
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {
                 sum += matrix[i][j]; // Скалдываем все элементы

@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class TWENTYFOURb { // Задачник 1
         if (0 <= x && x < (pi / 2)) {
             while (S > eps) {
                 m = m * (-1);
-                S = S + m * (Math.cos((2 * n - 1) * x) / n);
+                S = S + m * (Math.cos((2 * n - 1) * x) / n); //It is not an algorithm, which is needed
                 n = n + 1;
             }
         }

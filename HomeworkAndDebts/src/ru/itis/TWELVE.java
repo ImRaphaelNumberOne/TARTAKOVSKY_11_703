@@ -16,7 +16,7 @@ public class TWELVE { // Из задачника 1
         }
         System.out.println(S);
         System.out.println(g);
-        // 12.б
+        // 12.б    //-
         S = 0;
         i = -1;
         n = 1;
@@ -30,7 +30,7 @@ public class TWELVE { // Из задачника 1
             System.out.println(S);
         }
         System.out.println(S);
-        // 12.в
+        // 12.в    //-
         n = 1.0;
         S = 0;
         g = 1.0;

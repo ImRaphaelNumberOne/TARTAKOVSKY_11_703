@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class THIRTEEN {
     public static void main(String[] args) { // со скриншота
         Scanner in = new Scanner(System.in);
-        double n, x , y, m = -1, S = 0;
+        double n, x , y, m = -1, S = 0;    //why double?
         n = in.nextDouble();
         while (n >= 1) {
             n = n / 10;

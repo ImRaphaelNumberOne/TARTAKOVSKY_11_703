@@ -2,10 +2,10 @@ package ru.itis;
 
 import java.util.Scanner;
 
-public class Ex14b {
+public class Ex14b {//Из задачника 1
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double a, t, eps = 0.0001, g, x, S = 0;
+        double a, t, eps = 0.0001, x, S = 0;
         a = in.nextDouble();
         x = in.nextDouble();
         t = 1/a;

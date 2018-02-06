@@ -2,7 +2,7 @@ package ru.itis;
 
 import java.util.Scanner;
 
-public class Ex23b {
+public class Ex23b {//Из задачника 1
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double n = 0, v2, v1, v0, S = 0, j = 2, h, x, a, e = -1;
